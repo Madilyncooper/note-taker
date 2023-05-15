@@ -22,7 +22,7 @@ app.get('/notes', (req, res) =>
 
 
 
-
+//static routes
 
 
 
