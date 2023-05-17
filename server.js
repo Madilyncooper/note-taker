@@ -18,13 +18,13 @@ app.get('/', (req, res) =>
   res.sendFile(path.join(__dirname, './public/index.html'))
 );
 
-app.get('/notes', (req, res) =>
+app.get('/notes', (req, res) =>{ 
   res.sendFile(path.join(__dirname, './public/notes.html'))
-);
+});
 
 
 app.get('/api/notes', (req, res) => {
-  readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
+ readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
 app.post('/api/notes', (req, res) => {
@@ -44,7 +44,7 @@ if(title && text && id) {
     body: newNote,
   };
 
-console.log(response.body);
+  res.json(response)
 }
 });
 
