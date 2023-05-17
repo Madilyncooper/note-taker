@@ -28,9 +28,10 @@ app.get('/api/notes', (req, res) => {
 });
 
 app.post('/api/notes', (req, res) => {
+  console.log(req.body);
 const { title, text, id } = req.body;
 
-if(title && text && id) {
+if(title && text) {
   const newNote = {
     title,
     text,
