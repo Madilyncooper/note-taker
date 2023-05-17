@@ -4,7 +4,6 @@ const { clog } = require('./middleware/clog');
 const notesDb = require('./db/db.json');
 const uuid = require('uuid');
 const { readFromFile, readAndAppend } = require('./helpers/fsutils');
-
 const PORT = process.env.port || 3001;
 
 const app = express();
