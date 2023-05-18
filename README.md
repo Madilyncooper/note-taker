@@ -31,4 +31,12 @@ $ cd <any folder you want this repository to go to>
 $ git clone <paste the copied link>
 ```
 
+## Deploy: 
+
+https://note-s-app.herokuapp.com/Links to an external site.
+
  ## Screenshot:
+
+ <img width="678" alt="Screen Shot 2023-05-18 at 7 30 38 AM" src="https://github.com/Madilyncooper/note-taker/assets/124405920/f4a68ade-3fd9-4dda-806f-2723037fca6c">
+ <img width="678" alt="Screen Shot 2023-05-18 at 7 31 07 AM" src="https://github.com/Madilyncooper/note-taker/assets/124405920/5f23d409-11c2-4e81-a197-e3b9dee2002d">
+ <img width="678" alt="Screen Shot 2023-05-18 at 7 32 01 AM" src="https://github.com/Madilyncooper/note-taker/assets/124405920/ada96995-fddb-49eb-a28d-057c91013201">
